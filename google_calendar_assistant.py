@@ -1,22 +1,3 @@
-"""
-Lightweight local Calendar Assistant
-===================================
-
-This repository contains a safe, local-only implementation of the calendar
-assistant used for demos and tests. All calls to external APIs (Google
-Calendar, OpenAI, LangChain, etc.) have been removed to make the project
-safe to publish. The assistant uses a local JSON file in `samples/` to
-store and query events.
-
-Files created/modified:
-- `google_calendar_assistant.py` (sanitized local-only logic)
-- `main.py` (entry point)
-- `samples/events.json` (local event storage)
-- `tests/test_calendar.py` (basic unit tests)
-
-If you want to re-enable real API integrations, keep credentials out of the
-repository and follow provider best practices. See README.md for details.
-"""
 
 import os
 import json
